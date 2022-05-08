@@ -4,7 +4,7 @@ from ast import literal_eval
 import messageInterface
 
 
-class RabbitMq:
+class RabbitMqInterface:
     def __init__(self, queue_name, exchange_name):
         self.queue_name = queue_name
         self.exchange_name = exchange_name
@@ -47,3 +47,6 @@ class RabbitMq:
 
             print("Awaiting RPC requests")
             channel.start_consuming()
+
+instance = RabbitMqInterface(queue_name='QueueToServer', exchange_name='QueueToServer')
+instance.connect()

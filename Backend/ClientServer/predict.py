@@ -33,8 +33,7 @@ class Predict:
             preprocessingDatabaseOutput = ProcessDatabaseOutput(self.labels, self.dimensions)
             self.labels, self.dimensions = preprocessingDatabaseOutput.labels, preprocessingDatabaseOutput.dimensions
             preprocessingImage = PreprocessImage(self.base64, self.functions, self.dimensions)
-            self.image= preprocessingImage.image
-
+            self.image = preprocessingImage.image
         except:
             return 'noModel'
         # image = processImage.preprocess(self.modelName, self.image, dim, functions, labels)
