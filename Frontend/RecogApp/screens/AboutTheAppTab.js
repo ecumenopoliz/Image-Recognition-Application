@@ -7,7 +7,8 @@ import styles from '../styles';
 export default function AboutTheAppTab(){
     return(
         <View style={styles.container}>
-            <Text style={styles.text}> About The App </Text>
+            <Text style={styles.text}> This is an image recognition application. </Text>
+            <Text style={styles.text}> Take an image and it will classify the objects found. </Text>
         </View>
 
     );

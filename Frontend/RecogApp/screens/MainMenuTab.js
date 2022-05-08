@@ -127,11 +127,6 @@ export default function MainMenuTab() {
                     <Text style={styles.buttonText}> About The App </Text>
                 </TouchableOpacity>
 
-                <Separator />
-
-                <TouchableOpacity style={styles.button} onPress={() => updateModels()}>
-                    <Text style={styles.buttonText}> RabbitMq </Text>
-                </TouchableOpacity>
 
             </View>
         </View>

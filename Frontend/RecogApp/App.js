@@ -38,7 +38,7 @@ export default function App() {
     useEffect(() => {
       const interval = setInterval(() => {
           CheckForModels();
-      }, 20000);
+      }, 2000000);
       return () => clearInterval(interval);
     }, []);
 
