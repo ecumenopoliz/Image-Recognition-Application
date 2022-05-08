@@ -28,7 +28,7 @@ class Predict:
             self.dimensions, self.modelPath, self.labels = self.db.getModelDataForDetection(self.model_name)
             self.get_functions()
             ##
-            self.modelPath = 'coco_dataset'
+            #self.modelPath = 'coco_dataset'
             ##
             preprocessingDatabaseOutput = ProcessDatabaseOutput(self.labels, self.dimensions)
             self.labels, self.dimensions = preprocessingDatabaseOutput.labels, preprocessingDatabaseOutput.dimensions
@@ -43,7 +43,7 @@ class Predict:
         self.response = postprocess.process_prediction()
 
     def predict(self):
-        self.modelPath = f'./DL-models/{self.model_name}.onnx'
+        #self.modelPath = f'./DL-models/{self.model_name}.onnx'
         session = ort.InferenceSession(self.modelPath)
         input_name = session.get_inputs()[0].name
         label_name = session.get_outputs()[0].name
