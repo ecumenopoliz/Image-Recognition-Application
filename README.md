@@ -10,6 +10,7 @@ npx react-native start
 
 in another command line interface:
 npx react-native run-android
+
 --------------------------------------
 to run on android phone:
 enable developer mode on android phone.
