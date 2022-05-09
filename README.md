@@ -26,4 +26,4 @@ then follow the same instructions for android studio emulator above.
 more information can be found on https://reactnative.dev/docs/environment-setup
 
 --------------------------------------
-Application can be published to google play stor by following the instructions found on https://reactnative.dev/docs/signed-apk-android
+Application can be published to google play store by following the instructions found on https://reactnative.dev/docs/signed-apk-android
