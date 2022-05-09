@@ -6,12 +6,12 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 
 Launch Application 
 ---------------------------------------
-Frontend can be launched using an android studio emulator: 
-in command line interface:
-npx react-native start 
+Frontend can be launched using an android studio emulator: \n
+in command line interface: \n
+npx react-native start \n
 
-in another command line interface:
-npx react-native run-android
+in another command line interface:\n
+npx react-native run-android\n
 
 --------------------------------------
 to run on android phone:
