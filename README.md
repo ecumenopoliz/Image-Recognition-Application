@@ -12,9 +12,11 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 
 Frontend can be launched using an android studio emulator:<br />
 In command line interface:<br />
+
 ```npx react-native start```<br />
 <br />
 In another command line interface:<br />
+
 ```npx react-native run-android```<br />
 
 --------------------------------------
@@ -23,6 +25,7 @@ Enable developer mode on androiddevice.<br />
 Allow usb-debugging in the developer options.<br />
 Connect device to computer with usb.<br />
 Check for devices in command line with: <br />
+
 ```adb devices```<br />
 <br />
 Then follow the same instructions for android studio emulator above.<br />
