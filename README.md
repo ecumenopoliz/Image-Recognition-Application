@@ -6,7 +6,7 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 
 Launch Application 
 ---------------------------------------
-Frontend can be run using an android studio emulator: 
+Frontend can be launched using an android studio emulator: 
 in command line interface:
 npx react-native start 
 
