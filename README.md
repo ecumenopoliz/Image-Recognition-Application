@@ -9,6 +9,7 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 ### Launch Application 
 ---------------------------------------
 *We used GitBash as our command line interface.*
+
 Frontend can be launched using an android studio emulator:<br />
 In command line interface:<br />
 ```npx react-native start```<br />
