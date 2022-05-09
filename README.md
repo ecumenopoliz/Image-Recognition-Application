@@ -8,6 +8,7 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 
 ### Launch Application 
 ---------------------------------------
+*We used GitBash as our command line interface.*
 Frontend can be launched using an android studio emulator:<br />
 In command line interface:<br />
 ```npx react-native start```<br />
@@ -52,6 +53,6 @@ Directory Object-Recognition-Application/Backend/ also containts docker-compose.
 The command will start the containers for both MySQL database and RabbitMQ queue system.
 
 --------------------------------------
-more information can be found on https://docs.docker.com/compose/install/ and https://docs.docker.com/compose/reference/up/
+More information can be found on https://docs.docker.com/compose/install/ and https://docs.docker.com/compose/reference/up/
 
 --------------------------------------
