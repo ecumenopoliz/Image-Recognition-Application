@@ -6,7 +6,7 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 
 ## Running frontend code
 
-Launch Application 
+###Launch Application 
 ---------------------------------------
 Frontend can be launched using an android studio emulator:<br />
 in command line interface:<br />
