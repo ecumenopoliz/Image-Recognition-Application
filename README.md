@@ -9,18 +9,18 @@ Launch Application
 Frontend can be launched using an android studio emulator:<br />
 in command line interface:<br />
 npx react-native start<br />
-
-in another command line interface:
-npx react-native run-android
+<br />
+in another command line interface:<br />
+npx react-native run-android<br />
 
 --------------------------------------
-to run on android phone:
-enable developer mode on android phone.
-allow usb-debugging in the developer options.
-connect phone to computer with usb.
-check for devices in command line with 'adb devices'
-
-then follow the same instructions for android studio emulator above.
+to run on android phone:<br />
+enable developer mode on android phone.<br />
+allow usb-debugging in the developer options.<br />
+connect phone to computer with usb.<br />
+check for devices in command line with 'adb devices'<br />
+<br />
+then follow the same instructions for android studio emulator above.<br />
 
 --------------------------------------
 more information can be found on https://reactnative.dev/docs/environment-setup
