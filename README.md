@@ -9,24 +9,24 @@ It was made by Eivind Hagtvedt and Maris Uzuls as part of a Bachelor project spr
 ### Launch Application 
 ---------------------------------------
 Frontend can be launched using an android studio emulator:<br />
-in command line interface:<br />
+In command line interface:<br />
 ```npx react-native start```<br />
 <br />
-in another command line interface:<br />
+In another command line interface:<br />
 ```npx react-native run-android```<br />
 
 --------------------------------------
-to run on android phone:<br />
-enable developer mode on android phone.<br />
-allow usb-debugging in the developer options.<br />
-connect phone to computer with usb.<br />
-check for devices in command line with: <br />
+To run on android device:<br />
+Enable developer mode on androiddevice.<br />
+Allow usb-debugging in the developer options.<br />
+Connect device to computer with usb.<br />
+Check for devices in command line with: <br />
 ```adb devices```<br />
 <br />
-then follow the same instructions for android studio emulator above.<br />
+Then follow the same instructions for android studio emulator above.<br />
 
 --------------------------------------
-more information can be found on https://reactnative.dev/docs/environment-setup
+More information can be found on https://reactnative.dev/docs/environment-setup
 
 --------------------------------------
 Application can be published to google play store by following the instructions found on https://reactnative.dev/docs/signed-apk-android
